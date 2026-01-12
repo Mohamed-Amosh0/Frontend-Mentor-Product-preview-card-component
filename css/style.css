@@ -13,7 +13,7 @@
 }
 body {
   background-color: var(--cream);
-  max-height: 100vh;
+  height: 100vh;
   font-family: "Fraunces", serif;
   font-weight: 100;
   font-style: normal;
@@ -124,9 +124,6 @@ body {
   background-color: var(--green700);
 }
 @media (min-width: 768px) {
-  body {
-    overflow: hidden;
-  }
   .card {
     max-width: 700px;
     height: 500px;
